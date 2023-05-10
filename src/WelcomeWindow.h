@@ -15,7 +15,7 @@ public:
     int height;
     sf::Font font;
     sf::Text welcome;
-    sf::FloatRect welcometextRect = welcome.getLocalBounds();
+    sf::FloatRect welcometextRect = welcome.getLocalBounds(); //hi
     sf::Text prompt;
     sf::FloatRect prompttextRect = prompt.getLocalBounds();
     sf::Text input;
